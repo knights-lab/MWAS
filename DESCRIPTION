@@ -1,0 +1,10 @@
+Package: MWAS
+Type: Package
+Title: Biomarker Discovery in Microbiome-Wide Association Studies (MWAS)
+Version: 0.1.0
+Author: Dan Knights
+Maintainer: Dan Knights <dknights@umn.edu>
+Description: Performs best-practice microbiome analyses for biomarker discovery, visualization, and predictive modeling using machine learning.
+License: MIT License
+LazyData: TRUE
+RoxygenNote: 5.0.1
