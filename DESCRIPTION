@@ -8,3 +8,7 @@ Description: Performs best-practice microbiome analyses for biomarker discovery,
 License: MIT License
 LazyData: TRUE
 RoxygenNote: 5.0.1
+Imports:
+ randomForest,
+ lars,
+ flux
