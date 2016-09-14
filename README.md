@@ -20,21 +20,21 @@ If you have trouble installing the `devtools` package, you can install with `ins
 
 Linux:
 ```R
-install.packages('https://github.com/knights-lab/MWAS/raw/master/dev.tar.gz',repo=NULL,method='wget')
+install.packages('https://github.com/knights-lab/MWAS/raw/master/release.tar.gz',repo=NULL,method='wget')
 ```
 
 Mac:
 ```R
-install.packages('https://github.com/knights-lab/MWAS/raw/master/dev.tar.gz',repo=NULL)
+install.packages('https://github.com/knights-lab/MWAS/raw/master/release.tar.gz',repo=NULL)
 ```
 
 or, if these fail, try:
 ```R
-install.packages('https://github.com/knights-lab/MWAS/raw/master/dev.tar.gz',repo=NULL, method='curl')
+install.packages('https://github.com/knights-lab/MWAS/raw/master/release.tar.gz',repo=NULL, method='curl')
 ```
 
 or:
 ```R
-install.packages('https://github.com/knights-lab/MWAS/raw/master/dev.tar.gz',repo=NULL, method='liburl')
+install.packages('https://github.com/knights-lab/MWAS/raw/master/release.tar.gz',repo=NULL, method='liburl')
 ```
 
