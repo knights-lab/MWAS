@@ -1,4 +1,4 @@
-#' runs cross-validation Random Forests classification
+#' Runs cross-validation of Random Forests classification
 #'
 #' @param x A matrix of numeric predictors
 #' @param y A factor or logical of responses
@@ -79,7 +79,7 @@
     return(result)
 }
 
-#' runs cross-validation of LARS regression
+#' Runs cross-validation of LARS regression
 #'
 #' @param x A matrix of numeric predictors
 #' @param y A factor or logical of responses

@@ -2,7 +2,7 @@
 % Please edit documentation in R/cross-validation.r
 \name{lars.cross.validation}
 \alias{lars.cross.validation}
-\title{runs cross-validation of LARS regression}
+\title{Runs cross-validation of LARS regression}
 \usage{
 lars.cross.validation(x, y, nfolds = 10, folds = NULL, verbose = FALSE,
   ...)
@@ -34,7 +34,7 @@ lars.cross.validation(x, y, nfolds = 10, folds = NULL, verbose = FALSE,
  \item{final.model}{Final lars model trained on whole data set}
 }
 \description{
-runs cross-validation of LARS regression
+Runs cross-validation of LARS regression
 }
 \examples{
 # generate fake data: 50 samples, 20 variables

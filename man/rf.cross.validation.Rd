@@ -2,7 +2,7 @@
 % Please edit documentation in R/cross-validation.r
 \name{rf.cross.validation}
 \alias{rf.cross.validation}
-\title{runs cross-validation Random Forests classification}
+\title{Runs cross-validation of Random Forests classification}
 \usage{
 rf.cross.validation(x, y, nfolds = 10, folds = NULL, verbose = FALSE, ...)
 }
@@ -30,7 +30,7 @@ rf.cross.validation(x, y, nfolds = 10, folds = NULL, verbose = FALSE, ...)
  \item{final.model}{Final random forests model trained on whole data set}
 }
 \description{
-runs cross-validation Random Forests classification
+Runs cross-validation of Random Forests classification
 }
 \examples{
 # generate fake data: 50 samples, 20 variables
