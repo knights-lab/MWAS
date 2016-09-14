@@ -9,6 +9,9 @@ Maintainer: Dan Knights <dknights@umn.edu>
 
 License: MIT License
 
+##Dependencies:
+First, install the following R package dependencies: `flux`, `randomForest`, and `lars`.
+
 ## Installation
 You can install directly from the github repository using the `devtools` package in `R`, with:
 ```R
